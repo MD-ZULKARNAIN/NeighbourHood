@@ -32,7 +32,8 @@ public class SendMailSSL {
 			message.setFrom(new InternetAddress("zulkarnain.nain786@gmail.com"));//change accordingly  
 			message.addRecipient(Message.RecipientType.TO,new InternetAddress(to));  
 			message.setSubject("Hello");  
-			message.setText("Testing.......");  
+			message.setText("Testing....yjgjgjhgjh...");  
+			
 
 			//send message  
 			Transport.send(message);  
